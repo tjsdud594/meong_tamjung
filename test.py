@@ -9,16 +9,16 @@ soup = BeautifulSoup(response.content, 'lxml')
 print(soup)
 data_f = []
 datas = soup.find_all('item')
-# for data in datas:
+for data in datas:
     # print("{상태 : ", data.find('processstate').text, "}")
-    # o = data.find('happenPlace')
-    # p = data.find('processstate').text
-    # n = data.find('noticeEdt').text
-    # print(p)
+    o = data.find('orgnm')
+    p = data.find('processstate').text
+    n = data.find('noticeedt').text
+    # print(o)
     
 
-    # data_f.append({"자치구" : o}, {"공고종료일" : n}, {"상태" : p})
+    data_f.append({"자치구" : o, "공고종료일" : n, "상태" : p})
 
-# 예제 : Trip_Info.append({'img_url':img_url, 'trip_name':trip_name, 'trip_page':trip_page})
+# Trip_Info.append({'img_url':img_url, 'trip_name':trip_name, 'trip_page':trip_page})
 
-# print(data_f)
+print(data_f)
