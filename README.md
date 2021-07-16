@@ -1,4 +1,6 @@
 # meong_tamjung
 
 ### 1. USECASE 
-<img src="https://user-images.githubusercontent.com/84279479/125881165-4dbac6c1-e452-4ede-a123-ba733a706a6f.png" width="600">
+<img src="https://user-images.githubusercontent.com/84279479/125884232-8e3cb9c2-c15f-41fa-9cbd-3ce7c60c81f4.png" width="600">
+
+### 1. ERD
