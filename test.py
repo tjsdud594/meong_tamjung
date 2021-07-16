@@ -19,9 +19,6 @@ datas = soup.find_all('item')
 
     # data_f.append({"자치구" : o}, {"공고종료일" : n}, {"상태" : p})
 
-    '''
-    Trip_Info.append({'img_url':img_url, 'trip_name':trip_name, 'trip_page':trip_page})
+# 예제 : Trip_Info.append({'img_url':img_url, 'trip_name':trip_name, 'trip_page':trip_page})
 
-    '''
-    
 # print(data_f)
