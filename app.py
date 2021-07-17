@@ -4,9 +4,11 @@ app = Flask(__name__)
 
 @app.route('/', methods=['get'])
 def get():
-    return render_template('reqres.html')  
+    return render_template('blank1.html')  
 
-
+@app.route('/shop', methods=['get'])
+def shop():
+    return render_template('shop.html')  
 
 
 if __name__ == "__main__":
